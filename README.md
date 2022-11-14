@@ -72,25 +72,25 @@ is the path to the cache that was discussed earlier. `path_to_cache` should also
 
 ```python
 # Writing to CSV file
-speed_data.to_csv('save_path/{driver_use.lower()}_vel_time_data.csv')
+speed_data.to_csv('C:/save_path/{driver_use.lower()}_vel_time_data.csv')
 ```
 
 Specifies the path to save the csv file with all of the driver data.
 
 ```python
-path = 'path/{driver_use.lower()}_vel_time.jpg'
+path = 'C:/path/{driver_use.lower()}_vel_time.jpg'
 ```
 
 and
 
 ```python
-acc_data.to_csv('save_path/{driver_use.lower()}_acc_time_data.csv')
+acc_data.to_csv('C:/save_path/{driver_use.lower()}_acc_time_data.csv')
 ```
 
 and
 
 ```python
-path = 'save_path/{driver_use.lower()}_acc_time.jpg'
+path = 'C:/save_path/{driver_use.lower()}_acc_time.jpg'
 ```
 
 all do the same thing as `speed_data.to_csv('save_path/{driver_use.lower()}_vel_time_data.csv')`, some of which specify the path to save the images (as JPG).
